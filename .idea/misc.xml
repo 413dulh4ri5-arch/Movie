@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/dicoding/Capstone Project Last/app/src/main/res/layout/activity_main.xml" value="0.10182370820668693" />
+        <entry key="..\:/dicoding/Capstone Project Last/app/src/main/res/layout/detail_movie_fragment.xml" value="0.10182370820668693" />
+        <entry key="..\:/dicoding/Capstone Project Last/app/src/main/res/layout/fragment_home.xml" value="0.15489130434782608" />
+        <entry key="..\:/dicoding/Capstone Project Last/app/src/main/res/layout/item_list_placeholder.xml" value="0.15489130434782608" />
+        <entry key="..\:/dicoding/Capstone Project Last/core/src/main/res/layout/item_list_movie.xml" value="0.15489130434782608" />
+        <entry key="..\:/dicoding/Capstone Project Last/favorite/src/main/res/layout/fragment_detail_favorite.xml" value="0.16621376811594202" />
+        <entry key="..\:/dicoding/Capstone Project Last/favorite/src/main/res/layout/fragment_favorite.xml" value="0.1" />
+        <entry key="..\:/dicoding/Capstone Project/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1" />
+        <entry key="..\:/dicoding/Capstone Project/app/src/main/res/drawable/ic_not_favorite_white.xml" value="0.1" />
+        <entry key="..\:/dicoding/Capstone Project/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/dicoding/Capstone Project/app/src/main/res/layout/content_detail_movie.xml" value="0.125" />
+        <entry key="..\:/dicoding/Capstone Project/app/src/main/res/layout/detail_movie_activity.xml" value="0.125" />
+        <entry key="..\:/dicoding/Capstone Project/app/src/main/res/layout/detail_movie_fragment.xml" value="0.33" />
+        <entry key="..\:/dicoding/Capstone Project/app/src/main/res/layout/fragment_home.xml" value="0.125" />
+        <entry key="..\:/dicoding/Capstone Project/app/src/main/res/layout/fragment_notifications.xml" value="0.125" />
+        <entry key="..\:/dicoding/Capstone Project/app/src/main/res/layout/view_empty.xml" value="0.1671195652173913" />
+        <entry key="..\:/dicoding/Capstone Project/app/src/main/res/layout/view_error.xml" value="0.125" />
+        <entry key="..\:/dicoding/Capstone Project/app/src/main/res/menu/bottom_nav_menu.xml" value="0.209375" />
+        <entry key="..\:/dicoding/Capstone Project/app/src/main/res/menu/menu_item.xml" value="0.19074074074074074" />
+        <entry key="..\:/dicoding/Capstone Project/core/src/main/res/layout/item_list_movie.xml" value="0.29936305732484075" />
+        <entry key="..\:/dicoding/Capstone Project/favorite/src/main/res/layout/fragment_favorite.xml" value="0.1671195652173913" />
+        <entry key="..\:/dicoding/Capstone Project/favorite/src/main/res/layout/view_empty.xml" value="0.1671195652173913" />
+        <entry key="..\:/dicoding/Capstone Project/settings/src/main/res/layout/fragment_setting.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

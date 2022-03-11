@@ -1,0 +1,76 @@
+buildscript {
+    ext.kotlin_version = '1.6.10'
+    ext.appcompat_version = "1.1.0"
+    ext.core_ktx_version = "1.3.2"
+    ext.constraint_version = "2.0.4"
+    ext.legacy_support_version = "1.0.0"
+    ext.androidx_junit_version = "1.1.2"
+    ext.multidex_version = "2.0.1"
+
+    ext.cardview_version = "1.0.0"
+    ext.recyclerview_version = "1.1.0"
+    ext.material_version = "1.2.1"
+    ext.glide_version = "4.11.0"
+
+    ext.room_version = "2.2.6"
+
+    ext.retrofit_version = "2.9.0"
+    ext.logging_interceptor_version = '4.9.0'
+
+    ext.kotlin_coroutines_version = "1.4.0"
+    ext.lifecycle_version = "2.2.0"
+
+    ext.dagger_version = "2.29.1"
+    ext.activity_ktx_version = "1.1.0"
+    ext.fragment_ktx_version = '1.2.5'
+
+    ext.hilt_version = '2.38.1'
+    ext.version_ext_hilt_compiler = '1.0.0'
+    ext.hilt_jetpack_version = '1.0.0-alpha03'
+
+    ext.nav_version = '2.4.0'
+
+    ext.switch_button_version = '0.0.3@aar'
+
+    ext.rx_java_version = '2.1.2'
+    ext.rx_android_version = '2.0.1'
+    ext.rx_binding_version = '2.0.0'
+    ext.rx_binding_appcompat_version = '3.0.0-alpha2'
+
+    ext.sdp_android_version = '1.0.6'
+    ext.shimmer_version = "0.5.0"
+
+    ext.database_sqlcipher = '4.4.0'
+    ext.sqlite_ktx = '2.1.0'
+
+    ext.leakcanary = '2.5'
+
+    ext.junit_version = "4.13.2"
+    ext.ext_junit = "1.1.3"
+    ext.espresso_version = "3.4.0"
+    ext.mockito_core = "3.3.1"
+    ext.mockito_inline = "3.3.3"
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.2.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10"
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$hilt_version"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

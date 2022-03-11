@@ -1,0 +1,5 @@
+<resources>
+    <string name="label_setting_movie">Short List Movie By Name</string>
+    <string name="label_setting_favorite">Short List Favorite By Name</string>
+</resources>
+

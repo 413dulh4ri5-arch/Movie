@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="@dimen/_15sdp">
+
+    <TextView
+        android:id="@+id/tv_short_movie"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_23sdp"
+        android:gravity="center"
+        android:text="@string/label_setting_movie"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textStyle="italic"
+        android:textColor="@color/semi_black"
+        android:textSize="16sp"/>
+
+    <com.suke.widget.SwitchButton
+        android:id="@+id/sb_movie"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_18sdp"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintLeft_toRightOf="@+id/tv_short_movie"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:sb_checked_color="@color/teal_200"
+        app:sb_shadow_effect="true"
+        app:sb_uncheckcircle_color="@color/gray"
+        app:sb_shadow_color="@color/gray" />
+
+
+    <TextView
+        android:id="@+id/tv_short_favorite"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:text="@string/label_setting_favorite"
+        android:textStyle="italic"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/sb_movie"
+        app:layout_constraintTop_toBottomOf="@+id/sb_movie"
+        android:textColor="@color/semi_black"
+        android:textSize="16sp"/>
+
+    <com.suke.widget.SwitchButton
+        android:id="@+id/sb_favorite"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintLeft_toRightOf="@+id/tv_short_movie"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_short_movie"
+        app:sb_checked_color="@color/teal_400"
+        app:sb_shadow_effect="true"
+        app:sb_uncheckcircle_color="@color/gray"
+        app:sb_shadow_color="@color/gray"
+        app:sb_effect_duration="@integer/material_motion_duration_long_1"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/iv_detail_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/image_description"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv_detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/iv_detail_image"
+        app:layout_constraintEnd_toStartOf="@id/iv_detail_image" />
+
+    <TextView
+        android:id="@+id/tv_detail_release_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:textSize="9sp"
+        android:textColor="@color/gray"
+        app:layout_constraintTop_toBottomOf="@id/tv_detail_title"
+        app:layout_constraintEnd_toStartOf="@id/tv_detail_title" />
+
+    <TextView
+        android:id="@+id/tv_detail_overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        app:layout_constraintTop_toBottomOf="@id/tv_detail_release_date"
+        app:layout_constraintEnd_toStartOf="@id/tv_detail_release_date" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/_15sdp"
+        app:backgroundTint="@color/colorPrimaryDark"
+        app:borderWidth="0dp"
+        app:elevation="@dimen/_6sdp"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        app:tint="@color/white"
+        tools:ignore="ContentDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Movie</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_settings">Setting</string>
+    <string name="title_detail_movie">Detail Movie</string>
+    <string name="title_detail_favorite">Detail Favorite</string>
+    <string name="something_wrong">Oops.. something went wrong</string>
+    <string name="title_activity_detail_movie">Detail Movie</string>
+    <string name="empty_favorite">Favorite is Empty</string>
+    <string name="title_empty_search_data">Data not found</string>
+</resources>

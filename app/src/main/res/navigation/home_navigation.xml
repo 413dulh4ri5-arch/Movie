@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_navigation"
+    app:startDestination="@+id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.movie.capstone.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/to_detailMovieFragment"
+            app:destination="@id/detailMovieFragment" />
+
+        <action
+            android:id="@+id/to_favoriteFragment"
+            app:destination="@id/favoriteFragment" />
+
+        <action
+            android:id="@+id/to_settingFragment"
+            app:destination="@id/settingFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailMovieFragment"
+        android:name="com.movie.capstone.detail.DetailMovieFragment"
+        android:label="@string/title_detail_movie"
+        tools:layout="@layout/detail_movie_fragment">
+
+        <argument
+            android:name="movie"
+            app:argType="com.movie.core.domain.model.Movie" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.movie.favorite.FavoriteFragment"
+        android:label="@string/title_favorite"
+        tools:layout="@layout/fragment_favorite">
+
+        <action
+            android:id="@+id/to_detailFavoriteFragment"
+            app:destination="@id/detailFavoriteFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.movie.settings.SettingFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_setting"/>
+
+    <fragment
+        android:id="@+id/detailFavoriteFragment"
+        android:name="com.movie.favorite.detail.DetailFavoriteFragment"
+        android:label="@string/title_detail_favorite"
+        tools:layout="@layout/fragment_detail_favorite">
+
+        <argument
+            android:name="movie"
+            app:argType="com.movie.core.domain.model.Movie" />
+
+    </fragment>
+</navigation>

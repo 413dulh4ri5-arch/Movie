@@ -51,7 +51,7 @@ class HomeViewModelUnitTest {
     @Test
     fun `should search movie from movieUseCase`() {
 
-        val fakeQuery = "query"
+        val fakeQuery = "fakeQuery"
         val fakeMovie = Movie(
             movieId = 12,
             title = "title",

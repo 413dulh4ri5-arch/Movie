@@ -7,7 +7,6 @@ import com.movie.core.data.Resource
 import com.movie.core.domain.model.Movie
 import com.movie.core.domain.usecase.MovieUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
 @HiltViewModel

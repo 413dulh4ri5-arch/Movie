@@ -44,11 +44,25 @@ android {
     buildFeatures {
         viewBinding = true
     }
+
+    lintOptions {
+        disable 'TypographyFractions','TypographyQuotes'
+
+        enable 'RtlHardcoded','RtlCompat', 'RtlEnabled'
+
+        check 'NewApi', 'InlinedApi'
+
+        quiet true
+
+        abortOnError false
+
+        ignoreWarnings true
+    }
+
     dynamicFeatures = [':favorite', ':settings']
 }
 
 dependencies {
     implementation project(":core")
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    debugImplementation "com.squareup.leakcanary:leakcanary-android:$leakcanary"
 }

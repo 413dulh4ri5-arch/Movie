@@ -39,6 +39,20 @@ android {
     buildFeatures {
         viewBinding = true
     }
+
+    lintOptions {
+        disable 'TypographyFractions','TypographyQuotes'
+
+        enable 'RtlHardcoded','RtlCompat', 'RtlEnabled'
+
+        check 'NewApi', 'InlinedApi'
+
+        quiet true
+
+        abortOnError false
+
+        ignoreWarnings true
+    }
 }
 
 dependencies {
